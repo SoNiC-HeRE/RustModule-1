@@ -7,8 +7,18 @@
 // * Use a function to display your first name
 // * Use a function to display your last name
 // * Use the println macro to display messages to the terminal
+fn display_first_name() {
+    println!("Sriyansh");
+}
+
+fn display_last_name() {
+    println!("Shivam");
+}
+
 
 fn main() {
+    display_first_name();
+    display_last_name();
 
 }
 

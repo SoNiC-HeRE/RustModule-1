@@ -1,3 +1,5 @@
+use core::panicking::panic;
+
 
 // DON'T let `println!` works
 fn main() {
@@ -8,6 +10,6 @@ fn main() {
 
 fn never_return() -> ! {
     // Implement this function, don't modify the fn signatures
-      
+      panic!();
 }
     

@@ -13,4 +13,15 @@
 
 
 
-fn main() {}
+fn main() {
+    let mut a = 1;
+    
+    for a in 1..=4{
+        println!("{}",a);
+        a+1;
+        if a==4 {
+            break;
+        }
+    }
+
+}

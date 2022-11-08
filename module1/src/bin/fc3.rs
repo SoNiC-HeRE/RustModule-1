@@ -10,6 +10,17 @@
 // * Use a match expression to determine which message to display
 // * Use an underscore (_) to match on any value
 
-fn main() {}
+fn main() {
+
+    let a = 33;
+    match a {
+        1=> println!("Not the default value"),
+        2=> println!("Not the default value"),
+        3=> println!("Not the default value"),
+        4=> println!("Not the default value"),
+        33=> println!("Value Matched!"),
+        _=> println!("This is the default value"),
+    }
+}
 
 
